@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bunkersandblasters:viscorok_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "bunkersandblasters:viscorok_ingot"
+  }
+}
