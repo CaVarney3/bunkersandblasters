@@ -1,0 +1,25 @@
+{
+
+  "item.bunkersandblasters.plasteel_ingot": "Plasteel Ingot",
+
+  "item.bunkersandblasters.molten_plasteel": "Molten Plasteel",
+
+  "item.bunkersandblasters.viscorok_shard": "Viscorok Shard",
+
+  "item.bunkersandblasters.viscorok_ingot": "Viscorok Ingot",
+
+  "item.bunkersandblasters.brachite_ingot": "Brachite Ingot",
+
+
+
+  "block.bunkersandblasters.viscorok_ore": "Viscorok Ore",
+  "block.bunkersandblasters.deepslate_viscorok_ore": "Deepslate Viscorok Ore",
+  "block.bunkersandblasters.viscorok_block": "Viscorok Block",
+  "block.bunkersandblasters.plasteel_block": "Plasteel Block",
+  "block.bunkersandblasters.brachite_ore": "Brachite Ore",
+
+  "item.bunkersandblasters.metal_detector": "Metal Detector",
+
+
+  "creativetab.bunkersandblasters_tab": "Bunkers And Blasters"
+}
