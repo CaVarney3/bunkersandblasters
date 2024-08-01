@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "viscorok",
+  "ingredient": {
+    "item": "bunkersandblasters:viscorok_ore"
+  },
+  "result": "bunkersandblasters:viscorok_ingot"
+}

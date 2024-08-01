@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "bunkersandblasters:block/deepslate_viscorok_ore"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_sanguinite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bunkersandblasters:nether_sanguinite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bunkersandblasters:sanguinite_ingot_from_blasting_nether_sanguinite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_sanguinite_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bunkersandblasters:sanguinite_ingot_from_blasting_nether_sanguinite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}
