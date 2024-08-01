@@ -47,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "bunkersandblasters:viscorok_shard"
+              "name": "bunkersandblasters:viscorok_chunk"
             }
           ]
         }
