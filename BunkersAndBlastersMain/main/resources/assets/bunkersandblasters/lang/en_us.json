@@ -1,0 +1,41 @@
+{
+
+  "item.bunkersandblasters.plasteel_ingot": "Plasteel Ingot",
+
+  "item.bunkersandblasters.molten_plasteel": "Molten Plasteel",
+
+  "item.bunkersandblasters.viscorok_shard": "Viscorok Shard",
+
+  "item.bunkersandblasters.viscorok_ingot": "Viscorok Ingot",
+
+  "item.bunkersandblasters.raw_sanguinite": "Raw Sanguinite",
+
+  "item.bunkersandblasters.sanguinite_ingot": "Sanguinite Ingot",
+
+  "item.bunkersandblasters.sanguinite_sword": "Sanguinite Sword",
+  "item.bunkersandblasters.sanguinite_axe": "Sanguinite Axe",
+  "item.bunkersandblasters.sanguinite_pickaxe": "Sanguinite Pickaxe",
+  "item.bunkersandblasters.sanguinite_shovel": "Sanguinite Shovel",
+  "item.bunkersandblasters.sanguinite_hoe": "Sanguinite Hoe",
+
+  "item.bunkersandblasters.viscorok_sword": "Viscorok Sword",
+  "item.bunkersandblasters.viscorok_axe": "Viscorok Axe",
+  "item.bunkersandblasters.viscorok_pickaxe": "Viscorok Pickaxe",
+  "item.bunkersandblasters.viscorok_shovel": "Viscorok Shovel",
+  "item.bunkersandblasters.viscorok_hoe": "Viscorok Hoe",
+
+
+
+
+  "block.bunkersandblasters.viscorok_ore": "Viscorok Ore",
+  "block.bunkersandblasters.deepslate_viscorok_ore": "Deepslate Viscorok Ore",
+  "block.bunkersandblasters.viscorok_block": "Viscorok Block",
+  "block.bunkersandblasters.plasteel_block": "Plasteel Block",
+  "block.bunkersandblasters.nether_sanguinite_ore": "Nether Sanguinite Ore",
+  "block.bunkersandblasters.sanguinite_block": "Sanguinite Block",
+
+  "item.bunkersandblasters.metal_detector": "Metal Detector",
+
+
+  "creativetab.bunkersandblasters_tab": "Bunkers And Blasters"
+}
