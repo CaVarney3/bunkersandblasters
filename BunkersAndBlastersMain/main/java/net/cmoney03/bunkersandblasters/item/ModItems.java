@@ -15,7 +15,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MOLTEN_PLASTEEL = ITEMS.register("molten_plasteel",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> VISCOROK_SHARD = ITEMS.register("viscorok_shard",
+    public static final RegistryObject<Item> VISCOROK_CHUNK = ITEMS.register("viscorok_chunk",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> VISCOROK_INGOT = ITEMS.register("viscorok_ingot",
             () -> new Item(new Item.Properties()));

@@ -35,7 +35,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SANGUINITE_SHOVEL.get());
                         pOutput.accept(ModItems.SANGUINITE_HOE.get());
 
-                        pOutput.accept(ModItems.VISCOROK_SHARD.get());
+                        pOutput.accept(ModItems.VISCOROK_CHUNK.get());
                         pOutput.accept(ModItems.VISCOROK_INGOT.get());
                         pOutput.accept(ModBlocks.VISCOROK_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_VISCOROK_ORE.get());

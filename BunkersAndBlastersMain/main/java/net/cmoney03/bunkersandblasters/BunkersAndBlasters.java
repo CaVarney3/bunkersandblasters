@@ -44,19 +44,31 @@ public class BunkersAndBlasters {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
+
+            //PLASTEEL//
             event.accept(ModItems.PLASTEEL_INGOT);
             event.accept(ModItems.MOLTEN_PLASTEEL);
-            event.accept(ModItems.VISCOROK_SHARD);
-            event.accept(ModItems.VISCOROK_INGOT);
+            event.accept(ModBlocks.PLASTEEL_BLOCK);
+
+
+            //SANGUINITE//
             event.accept(ModItems.RAW_SANGUINITE);
             event.accept(ModItems.SANGUINITE_INGOT);
+            event.accept(ModBlocks.NETHER_SANGUINITE_ORE);
+
+
+            //CUSTOM//
             event.accept(ModItems.METAL_DETECTOR);
 
+
+            //VISCOROK//
             event.accept(ModBlocks.VISCOROK_ORE);
             event.accept(ModBlocks.DEEPSLATE_VISCOROK_ORE);
             event.accept(ModBlocks.VISCOROK_BLOCK);
-            event.accept(ModBlocks.PLASTEEL_BLOCK);
-            event.accept(ModBlocks.NETHER_SANGUINITE_ORE);
+            event.accept(ModItems.VISCOROK_CHUNK);
+            event.accept(ModItems.VISCOROK_INGOT);
+
+
 
         }
     }

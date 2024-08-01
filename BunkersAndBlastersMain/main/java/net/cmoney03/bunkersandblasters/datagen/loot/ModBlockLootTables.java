@@ -31,9 +31,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SANGUINITE_BLOCK.get());
 
         this.add(ModBlocks.VISCOROK_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.VISCOROK_ORE.get(), ModItems.VISCOROK_SHARD.get()));
+                block -> createCopperLikeOreDrops(ModBlocks.VISCOROK_ORE.get(), ModItems.VISCOROK_CHUNK.get()));
         this.add(ModBlocks.DEEPSLATE_VISCOROK_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_VISCOROK_ORE.get(), ModItems.VISCOROK_SHARD.get()));
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_VISCOROK_ORE.get(), ModItems.VISCOROK_CHUNK.get()));
         this.add(ModBlocks.NETHER_SANGUINITE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.NETHER_SANGUINITE_ORE.get(), ModItems.RAW_SANGUINITE.get()));
 

@@ -5,18 +5,22 @@ import net.cmoney03.bunkersandblasters.block.ModBlocks;
 import net.cmoney03.bunkersandblasters.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
+
+
 import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
     private static final List<ItemLike> VISCOROK_SMELTABLES = List.of(
-            ModItems.VISCOROK_SHARD.get(),
+            ModItems.VISCOROK_CHUNK.get(),
             ModBlocks.VISCOROK_ORE.get(),
             ModBlocks.DEEPSLATE_VISCOROK_ORE.get()
     );
@@ -52,6 +56,122 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', ModItems.SANGUINITE_INGOT.get())
                 .unlockedBy(getHasName(ModItems.SANGUINITE_INGOT.get()), has(ModItems.SANGUINITE_INGOT.get()))
                 .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SANGUINITE_AXE.get())
+                        .pattern("SS ")
+                        .pattern("SX ")
+                        .pattern(" X ")
+                        .define('S', ModItems.SANGUINITE_INGOT.get())
+                        .define('X', Items.STICK)
+                .unlockedBy("has_sanguinite_ingot", has(ModItems.SANGUINITE_INGOT.get()))
+                        .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SANGUINITE_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" X ")
+                .pattern(" X ")
+                .define('S', ModItems.SANGUINITE_INGOT.get())
+                .define('X', Items.STICK)
+                .unlockedBy("has_sanguinite_ingot", has(ModItems.SANGUINITE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SANGUINITE_HOE.get())
+                .pattern("SS ")
+                .pattern(" X ")
+                .pattern(" X ")
+                .define('S', ModItems.SANGUINITE_INGOT.get())
+                .define('X', Items.STICK)
+                .unlockedBy("has_sanguinite_ingot", has(ModItems.SANGUINITE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SANGUINITE_SHOVEL.get())
+                .pattern(" S ")
+                .pattern(" X ")
+                .pattern(" X ")
+                .define('S', ModItems.SANGUINITE_INGOT.get())
+                .define('X', Items.STICK)
+                .unlockedBy("has_sanguinite_ingot", has(ModItems.SANGUINITE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.SANGUINITE_SWORD.get())
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" X ")
+                .define('S', ModItems.SANGUINITE_INGOT.get())
+                .define('X', Items.STICK)
+                .unlockedBy("has_sanguinite_ingot", has(ModItems.SANGUINITE_INGOT.get()))
+                .save(pWriter);
+
+
+        // VISCOROK //
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.VISCOROK_AXE.get())
+                .pattern("SS ")
+                .pattern("SX ")
+                .pattern(" X ")
+                .define('S', ModItems.VISCOROK_INGOT.get())
+                .define('X', Items.STICK)
+                .unlockedBy("has_viscorok_ingot", has(ModItems.VISCOROK_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.VISCOROK_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" X ")
+                .pattern(" X ")
+                .define('S', ModItems.VISCOROK_INGOT.get())
+                .define('X', Items.STICK)
+                .unlockedBy("has_viscorok_ingot", has(ModItems.VISCOROK_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.VISCOROK_HOE.get())
+                .pattern("SS ")
+                .pattern(" X ")
+                .pattern(" X ")
+                .define('S', ModItems.VISCOROK_INGOT.get())
+                .define('X', Items.STICK)
+                .unlockedBy("has_viscorok_ingot", has(ModItems.VISCOROK_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.VISCOROK_SHOVEL.get())
+                .pattern(" S ")
+                .pattern(" X ")
+                .pattern(" X ")
+                .define('S', ModItems.VISCOROK_INGOT.get())
+                .define('X', Items.STICK)
+                .unlockedBy("has_viscorok_ingot", has(ModItems.VISCOROK_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.VISCOROK_SWORD.get())
+                .pattern(" S ")
+                .pattern(" S ")
+                .pattern(" X ")
+                .define('S', ModItems.VISCOROK_INGOT.get())
+                .define('X', Items.STICK)
+                .unlockedBy("has_viscorok_ingot", has(ModItems.VISCOROK_INGOT.get()))
+                .save(pWriter);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VISCOROK_INGOT.get(), 9)
                 .requires(ModBlocks.VISCOROK_BLOCK.get())

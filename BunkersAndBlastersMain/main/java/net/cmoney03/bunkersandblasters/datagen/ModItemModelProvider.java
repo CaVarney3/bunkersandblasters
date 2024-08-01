@@ -19,7 +19,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.VISCOROK_INGOT);
-        simpleItem(ModItems.VISCOROK_SHARD);
+        simpleItem(ModItems.VISCOROK_CHUNK);
         simpleItem(ModItems.PLASTEEL_INGOT);
         simpleItem(ModItems.MOLTEN_PLASTEEL);
         simpleItem(ModItems.RAW_SANGUINITE);
